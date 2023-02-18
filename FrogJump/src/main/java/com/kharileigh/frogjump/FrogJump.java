@@ -45,7 +45,7 @@ public class FrogJump {
         // calculate distance to jump - substract beginning from the end Y - X
         int distanceToJump = Y - X;
         
-        // calculate number of jumps - distance divided by D (cast to int for celing returns double && cast 
+        // calculate number of jumps - distance divided by D (cast distanceToJump to int for celing returns double && cast D to double to it is not rounded)
         int jumps = (int)Math.ceil(distanceToJump / (double)D);
         
         
