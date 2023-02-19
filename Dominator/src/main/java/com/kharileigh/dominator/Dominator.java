@@ -37,10 +37,7 @@ public class Dominator {
 
     public static void main(String[] args) {
         
-//        // should return either 0, 2, 4, 6, 7
-//        System.out.println(new Dominator().solution(new int[] {3, 4, 3, 2, 3, -1, 3, 3}));
-        
-        // should return 3
+        // should return either 0, 2, 4, 6, 7
         System.out.println(new Dominator().solution(new int[] {3, 4, 3, 2, 3, -1, 3, 3}));
     }
     
