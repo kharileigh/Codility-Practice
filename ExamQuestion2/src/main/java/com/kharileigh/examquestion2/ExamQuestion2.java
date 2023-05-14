@@ -19,11 +19,11 @@ public class ExamQuestion2 {
         
         
         // should return 
-        System.out.println("Hello World!");
+        solution(5);
     }
     
     
-    public void solution(int N) {
+    static void solution(int N) {
     
         // 1 : GLOBAL VARIABLES - start & end point of range
         int start = 1;

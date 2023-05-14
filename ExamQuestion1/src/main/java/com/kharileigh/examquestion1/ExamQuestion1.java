@@ -21,11 +21,11 @@ import java.util.*;
 public class ExamQuestion1 {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        solution("Add, subtract, divide, multiply");
     }
     
     
-    public int solution(String S) {
+    static int solution(String S) {
         
         // 1 : EDGE CASE 
         if (S.length() == 0) {
@@ -61,7 +61,7 @@ public class ExamQuestion1 {
                 String last = stack.lastElement();
                 String secondLast = stack.get(i - 2);
                 
-                int 
+                
                 
             }
             
@@ -78,4 +78,5 @@ public class ExamQuestion1 {
         } else {
             return 1;
         }
+    }
 }
